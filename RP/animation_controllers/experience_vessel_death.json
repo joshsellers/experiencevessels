@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.experience_vessel": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"cancel_animation": "!query.is_alive"
+						}
+					]
+				},
+				"cancel_animation": {
+					"animations": [
+						"cancel_death"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}

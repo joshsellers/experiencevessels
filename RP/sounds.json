@@ -1,0 +1,14 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "stoex:experience_vessel": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "hit.stone",
+                    "death": "hit.stone"
+                }
+            }
+        }
+    }
+}

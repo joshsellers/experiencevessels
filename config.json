@@ -1,0 +1,45 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Storable Experience",
+	"namespace": "stoex",
+	"authors": [
+		"joshs"
+	],
+	"targetVersion": "1.19.60",
+	"description": "Adds blocks and items that allow storage and retrieval of experience points",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"educationEdition": false
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Storable Experience"
+				}
+			]
+		]
+	}
+}

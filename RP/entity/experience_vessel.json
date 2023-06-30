@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "stoex:experience_vessel",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/experience_storer"
+			},
+			"geometry": {
+				"default": "geometry.experience_vessel"
+			},
+			"render_controllers": [
+				"controller.render.experience_vessel"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"cancel_death": "animation.cancel_death"
+			},
+			"animation_controllers": [
+				{
+					"experience_vessel": "controller.animation.experience_vessel"
+				}
+			]
+		}
+	}
+}

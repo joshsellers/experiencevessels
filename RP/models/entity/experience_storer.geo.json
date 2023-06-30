@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.experience_vessel",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -1], "size": [2, 24, 2], "uv": [24, 36]},
+						{"origin": [-1, 0, 6], "size": [2, 24, 2], "uv": [0, 36]},
+						{"origin": [6, 0, -1], "size": [2, 24, 2], "uv": [16, 36]},
+						{"origin": [-1, 0, -8], "size": [2, 24, 2], "uv": [8, 36]},
+						{"origin": [-6, 0, -6], "size": [12, 24, 12], "uv": [0, 0]},
+						{"origin": [-2, 24, -2], "size": [4, 2, 1], "uv": [0, 3]},
+						{"origin": [-2, 24, 1], "size": [4, 2, 1], "uv": [0, 0]},
+						{"origin": [1, 24, -1], "size": [1, 2, 2], "uv": [6, 6]},
+						{"origin": [-2, 24, -1], "size": [1, 2, 2], "uv": [0, 6]},
+						{"origin": [2, 24, -1], "size": [6, 1, 2], "uv": [32, 47]},
+						{"origin": [-8, 24, -1], "size": [6, 1, 2], "uv": [47, 3]},
+						{"origin": [2, 24, -1], "size": [6, 1, 2], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [47, 0]},
+						{"origin": [-8, 24, -1], "size": [6, 1, 2], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [36, 9]},
+						{"origin": [-6, 0, 6], "size": [5, 2, 2], "uv": [48, 24]},
+						{"origin": [1, 0, 6], "size": [5, 2, 2], "uv": [48, 12]},
+						{"origin": [-6, 0, -8], "size": [5, 2, 2], "uv": [48, 20]},
+						{"origin": [1, 0, -8], "size": [5, 2, 2], "uv": [48, 16]},
+						{"origin": [-8, 0, 1], "size": [2, 2, 7], "uv": [43, 38]},
+						{"origin": [-8, 0, -8], "size": [2, 2, 7], "uv": [43, 29]},
+						{"origin": [6, 0, 1], "size": [2, 2, 7], "uv": [36, 0]},
+						{"origin": [6, 0, -8], "size": [2, 2, 7], "uv": [32, 36]}
+					]
+				}
+			]
+		}
+	]
+}

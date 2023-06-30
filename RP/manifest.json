@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"joshs"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Storable Experience",
+		"description": "Adds blocks and items that allow storage and retrieval of experience points",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "cb339d18-5dcb-424a-9318-e06cfeda9c90",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2905d8ad-b2f6-40a5-8439-f4edc9feee39",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "530bf062-7f48-4004-9242-25d7bf497666",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

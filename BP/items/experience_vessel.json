@@ -1,0 +1,61 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "stoex:experience_vessel",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "stoex_experience_vessel"
+			},
+			"minecraft:entity_placer": {
+				"entity": "stoex:experience_vessel"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "stoex:exvess_place"
+				}
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"position": [
+							2,
+							0,
+							-4
+						],
+						"scale": [
+							0.05,
+							0.05,
+							0.05
+						]
+					},
+					"third_person": {
+						"position": [
+							1,
+							2,
+							-1
+						],
+						"scale": [
+							0.05,
+							0.05,
+							0.05
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"stoex:exvess_place": {
+				"trigger": "stoex:exvess_sound"
+			},
+			"stoex:exvess_sound": {
+				"run_command": {
+					"command": "/playsound land.stone @a ~~~ 1 1"
+				}
+			}
+		}
+	}
+}
